@@ -1,0 +1,122 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif; /* Daha modern bir font */
+    background-color: #eef2f3; /* Daha açık bir arka plan rengi */
+    color: #2d3436;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: #34495e; /* Lacivert tonlarında bir başlık rengi */
+    font-size: 2.2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px; /* Daha az dolgu */
+    background-color: #ffffff;
+    border-radius: 12px; /* Daha belirgin köşe yuvarlatma */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Daha büyük gölge */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Hover'da hafif bir kaldırma efekti */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Ana Sayfa Butonu */
+.home-btn {
+    display: inline-block;
+    padding: 12px 25px; /* Daha dengeli dolgu */
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Renk geçişli arka plan */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px; /* Daha yuvarlak buton */
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.comments-btn {
+    display: inline-block;
+    padding: 12px 25px; /* Daha dengeli dolgu */
+    margin-bottom: 20px;
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Renk geçişli arka plan */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px; /* Daha yuvarlak buton */
+    text-decoration: none;
+    transition: background 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.home-btn:hover {
+    background: linear-gradient(45deg, #2575fc, #6a11cb); /* Renk geçişini ters çevir */
+    transform: translateY(-3px);
+}
+
+.home-btn i {
+    margin-right: 8px;
+    font-size: 1.2em;
+}
+
+/* Tablo stili */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1em;
+    overflow: hidden;
+    border-radius: 10px; /* Tablonun kenarlarını yuvarlat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px; /* Daha geniş dolgu */
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: linear-gradient(45deg, #6a11cb, #2575fc); /* Renk geçişli başlık */
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+td {
+    background-color: #fcfcfc;
+}
+
+tr:hover {
+    background-color: #f4f8fb; /* Hafif bir mavi hover efekti */
+    transition: background-color 0.2s ease;
+}
+
+/* Silme butonu */
+.delete-btn {
+    color: #e74c3c;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.delete-btn:hover {
+    color: #c0392b; /* Daha koyu kırmızı */
+    transform: scale(1.1); /* Hover'da biraz büyütme efekti */
+}
+
+.delete-btn i {
+    margin-right: 5px;
+    font-size: 1.2em;
+}
